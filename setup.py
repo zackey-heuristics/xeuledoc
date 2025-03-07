@@ -11,7 +11,7 @@ setup(
     description="Fetch information about a public Google document.",
     include_package_data=True,
     url='https://github.com/Malfrats/xeuledoc',
-    entry_points = {'console_scripts': ['xeuledoc = xeuledoc.core:main']},
+    entry_points = {'console_scripts': ['xeuledoc-json = xeuledoc.json_output:main']},
     classifiers=[
         "Programming Language :: Python",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
